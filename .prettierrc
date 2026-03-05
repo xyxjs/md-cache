@@ -1,0 +1,23 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "printWidth": 80,
+  "semi": true,
+  "endOfLine": "lf",
+  "singleQuote": false,
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": "src/index.html",
+      "options": {
+        "printWidth": 10000
+      }
+    },
+    {
+      "files": "api_src/anitxt/*.json",
+      "options": {
+        "printWidth": 1
+      }
+    }
+  ]
+}

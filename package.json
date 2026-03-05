@@ -1,0 +1,25 @@
+{
+  "name": "md-cache",
+  "author": "xyxjs",
+  "description": "Provide markdown with markdown-it & cache",
+  "keywords": [
+    "markdown",
+    "markdown-it",
+    "cache",
+    "express"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xyxjs/md-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xyxjs/md-cache/issues"
+  },
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "front-matter": "^4.0.2"
+  }
+}

@@ -3,11 +3,14 @@ import path from "node:path";
 import process from "node:process";
 import crypto from "node:crypto";
 import fm from "front-matter";
-import md from "./md-render.js";
 
 export default class MarkdownCache {
   constructor(options = {}) {
-    this.md = md;
+    if (!options.md) {
+      throw new Error("No markdown-it provide!");
+    }
+
+    this.md = options.md;
     this.fmParser = fm;
 
     this.root = options.root || process.cwd();
